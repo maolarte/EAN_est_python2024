@@ -1,3 +1,4 @@
+# instalar Conda
 En anaconda Prompt:
 
 conda env list = lista de los ambientes
@@ -12,8 +13,8 @@ poetry add seaborn scikit-learn statsmodels = agregar nuevas librerias
 
 En visual: 
 select kernel - python - ambiente creado
-
-# instalar git 
+-----------------------------------------------------------------
+# instalar git (buscarlo e instalarlo)
 
 En anaconda Prompt: 
 #para conectar a github
@@ -22,5 +23,13 @@ git init
 git remote add origin https://github.com/maolarte/EAN_est_python2024
 git branch -M main
 git status
-git add . 
+----------------------------------------------------------------
+#para subir el código 
+git add . # cuando se sube todo de una
 git commit -m "[Mi primer commit]"
+git push origin main
+
+-------------------------------------------------------------
+#para usar el git de alguien más
+cd ..
+git clone https://github.com/Izainea/ean_est_python_2024 ## es el repositorio del profesor 
