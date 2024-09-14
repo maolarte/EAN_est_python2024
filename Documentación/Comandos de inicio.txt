@@ -13,7 +13,14 @@ poetry add seaborn scikit-learn statsmodels = agregar nuevas librerias
 En visual: 
 select kernel - python - ambiente creado
 
+# instalar git 
+
 En anaconda Prompt: 
 #para conectar a github
 cd "C:\Users\SALA\Documents\Proyecto_1"
 git init
+git remote add origin https://github.com/maolarte/EAN_est_python2024
+git branch -M main
+git status
+git add . 
+git commit -m "[Mi primer commit]"
