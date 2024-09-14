@@ -1,0 +1,19 @@
+En anaconda Prompt:
+
+conda env list = lista de los ambientes
+conda create -n mi_primer_ambiente = crear ambiente
+conda activate mi_primer_ambiente = activar el ambiente 
+conda install pip = instalar pip para instalar paquetes
+pip install poetry ipykernel = Instalar ipykernel y poetry (gestor de paquetes)
+cd "C:\Users\SALA\Documents\Proyecto_1" = llamar la carpeta en conda
+poetry init = iniciar el proyecto. luego se genera un archivo pyproject.toml
+poetry install = instala los paquetes definidos
+poetry add seaborn scikit-learn statsmodels = agregar nuevas librerias 
+
+En visual: 
+select kernel - python - ambiente creado
+
+En anaconda Prompt: 
+#para conectar a github
+cd "C:\Users\SALA\Documents\Proyecto_1"
+git init
